@@ -10,13 +10,12 @@ struct emp {
    double salary;
 };
 
-/*Compare eid of employees, lower eid goes first*/
-bool comp(const struct emp &emp1, const struct emp &emp2){
-   if(emp1.eid < emp2.eid){
-      return true;
-   }
-   return false;
-}
+struct dept {
+   int did;
+   std::string dname;
+   double budget;
+   int managerid;
+};
 
 int main() {
    return 0;
