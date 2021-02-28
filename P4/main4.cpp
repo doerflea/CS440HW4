@@ -1,3 +1,6 @@
+//CS440 HW4 Part 4 External Memory Sorting
+//Authors: Anneliese Doerfler, Carl Bohme
+
 #include <iostream>
 #include <sstream>
 #include <fstream>
